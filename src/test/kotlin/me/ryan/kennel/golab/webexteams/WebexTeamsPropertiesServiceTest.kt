@@ -5,9 +5,9 @@ import org.junit.After
 import org.junit.Test
 import org.junit.Before
 
-
-/**
- * Created by rkennel on 2/10/19.
+/*
+This test relies on emulator running locally
+https://cloud.google.com/datastore/docs/tools/datastore-emulator
  */
 internal class WebexTeamsPropertiesServiceTest {
 
