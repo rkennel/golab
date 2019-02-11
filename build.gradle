@@ -48,6 +48,8 @@ dependencies {
 	implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 	implementation "org.jetbrains.kotlin:kotlin-reflect"
 	implementation "com.google.appengine:appengine-api-1.0-sdk"
+	implementation group: 'com.google.cloud', name: 'google-cloud-datastore', version: '1.62.0'
+
 
 	runtimeOnly 'org.springframework.boot:spring-boot-devtools'
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
